@@ -22,7 +22,7 @@ public class checkPermutation {
     public static void main(String[] args){
         String test1 = "god";
         String test2 = "dog";
-        String test3 = "hello";
+        String test3 = "fog";
         System.out.println(isPermutation(test1,test2));
         System.out.println(isPermutation(test1,test3));
     }
