@@ -30,5 +30,7 @@ public class isUnique {
         System.out.println(isStringUnique(test2));
         System.out.println(isStringUnique(test3));
         System.out.println(isStringUnique(test4));
+        int number = 234;
+       
     }
 }

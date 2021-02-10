@@ -27,8 +27,6 @@ public class TwoSum {
         int target = 9;
         int target2 = 15;
         int target3 = 18;
-        
-
 
     }
 }
