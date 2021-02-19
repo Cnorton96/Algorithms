@@ -13,7 +13,6 @@ class Node{
 public class removeDuplicates {
     static Node head;
 
-    //This appriacg runs in constant time thanks to the hashset we are using.
     public Node removeDuplicates(Node head){
         HashSet<Integer> set = new HashSet<Integer>();
         Node current = head;
