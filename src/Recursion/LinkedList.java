@@ -41,6 +41,18 @@ public class LinkedList {
         }
     }
 
+    public static LinkedList swapPairs(LinkedList list){
+        if((list.head == null) || (list.head.next == null)){
+            return list;
+        }
+
+        Node firstNode = list.head;
+        Node secondNode = list.head.next;
+        return list;
+
+
+    }
+
     public static void main(String[] args){
 
         LinkedList linkedList = new LinkedList();
@@ -50,6 +62,7 @@ public class LinkedList {
         linkedList = insert(linkedList, 4);
 
         printList(linkedList);
+        System.out.println(swapPairs(linkedList));
 
     }
 }
